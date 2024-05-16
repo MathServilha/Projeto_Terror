@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #131111;
+    color: #ffffff;
+}
+
+header {
+    background-color: #000000;
+    color: #d31919;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 300px;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-right: 20px; 
+}
+
+header nav ul li:last-child {
+    margin-right: 300px; 
+}
+
+header nav ul li a {
+    color: #ff4800;
+    text-decoration: none;
+    font-size: 30px; 
+}
+
+.imagem-container {
+    text-align: center; 
+}
+
+.imagem-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para telas pequenas */
+@media screen and (max-width: 600px) {
+    /* Adicione aqui os estilos para telas pequenas */
+}
+
+/* Estilos para telas médias */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Adicione aqui os estilos para telas médias */
+}
+
+/* Estilos para telas grandes */
+@media screen and (min-width: 1025px) {
+    /* Adicione aqui os estilos para telas grandes */
+}
+
+
+
+
+.texto-inferior-esquerdo {
+    position: absolute;
+    bottom: 20px; 
+    left: 20px; 
+    color: #fff;
+    font-size: 50px; 
+    margin: 20px; 
+}
+
+h1{
+    color: #ff4800;
+    font-family: Arial, sans-serif;
+    font-size: 75px; 
+    margin: 20px 0; 
+    text-align: center;
+    padding: 70px; 
+
+
+}
+
+
+
+h2 {
+    color: #ff4800;
+    font-family: Arial, sans-serif;
+    font-size: 75px;
+    margin: 20px 0;
+    text-align: center;
+    background-color: black;
+    padding: 70px;
+    margin-bottom: 0; /* Remova a margem inferior padrão */
+}
+
+h3 {
+
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 25px; 
+    margin: 20px 0; 
+    text-align: center;
+    padding: 70px; 
+
+    
+}
+
+.container2 {
+    text-align: center;
+}
+
+.container2 .imagem {
+    max-width: 100%; 
+    height: auto; 
+    width: 200px; 
+    margin: 0 auto; 
+}
+ 
+
+
+.container2 .imagem {
+    width: 500px;
+    height: auto;
+    margin-bottom: 20px; 
+    margin-left: 20px;
+}
+
+
+.imagem-container3 {
+    display: flex; 
+    align-items: center; 
+    padding:  60px; 
+
+}
+
+.imagem-container3 img {
+    max-width: 50%; 
+    height: auto; 
+}
+
+.texto-ao-lado {
+    flex: 1; 
+    padding: 0 20px; 
+}
+
+.paragrafo-cinemacabro {
+    font-size: 20px; 
+    
+}
+
+.filmes-lista {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.filme {
+  text-align: center;
+}
+.filme img {
+  width: 100%;
+  height: auto;
+}
+
+
+.botao {
+    
+    display: inline-block; 
+    background-color: #ff4800;
+    color: #ffffff;
+    text-decoration: none;
+    padding:  20px; 
+    font-size: 16px; 
+    margin-top: 20px; 
+    margin-left: 825px;
+    
+}
+
+.botao2 {
+    
+    display: inline-block; 
+    background-color: #ff4800;
+    color: #ffffff;
+    text-decoration: none;
+    padding:  20px; 
+    font-size: 16px; 
+    margin-top: 20px; 
+    margin-left: 20px;
+    
+}
+
+
+
+.formulario-vertical {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+    height: 400px; 
+    color: #ff4800;
+    font-size: 24px;
+    
+}
+
+.formulario-vertical label {
+    margin-bottom: 5px; 
+}
+
+.formulario-vertical input{
+height: 80%;
+width: 80%
+}
+
+.formulario-vertical textarea,
+.formulario-vertical button {
+    width: 80%; 
+    margin-bottom: 10px;
+    height: 80%;
+    background-color: #ff4800;
+    color: #ffffff;
+    
+    
+}
+
+.formulario-vertical textarea {
+    height: 500px;
+}
+
+
+
+
+.paragrafo-cinemacabro {
+    color: #ffffff;
+    font-size: 32px; 
+    text-align: justify; 
+    margin: 20px; 
+    float: right; 
+    margin-left: 20px; 
+}
+
+
+
+
+footer {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 40px;
+    width: 100%;
+    clear: both; 
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    header nav ul {
+        flex-direction: column;
+    }
+
+    header nav ul li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .botao {
+        display: block;
+    }
+}

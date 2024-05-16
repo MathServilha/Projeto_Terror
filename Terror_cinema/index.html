@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinemacabro - Home</title>
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <style>
+        .espacamento {
+            margin-bottom: 75px;
+        }
+
+        footer {
+    background-color: #ffffff; 
+    color: rgb(0, 0, 0); 
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/logo.png" alt="Descrição da Imagem do Banner" width="500" height="150">
+            </a>
+            
+
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#filmes"> Filmes </a></li>
+                <li><a href="#quem-somos"> Quem Somos </a></li>
+                <li><a href="#news"> News </a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="banner">
+        <div class="imagem-container">
+            <img src="images/REC.png" alt="Descrição da Imagem do Banner" width="1920" height="1080">
+        </div>
+        <div class="texto-inferior-esquerdo">
+            Bem-vindo ao Cinemacabro - O Lar do Terror Encontrado!
+        </div>
+    </section>
+    <h2 id="filmes">Veja o nosso catálogo de filmes!</h2>
+    <div class="espacamento"></div>
+    <div class="container2">
+        <img src="images/Blair.png" alt="Imagem 1" class="imagem">
+        <img src="images/REC1.png" alt="Imagem 2" class="imagem">
+        <img src="images/VHS2.png" alt="Imagem 3" class="imagem">
+        <a href="filmes.html" class="botao espacamento" style="display: block; margin: 0 auto;">Veja mais</a>
+
+    </div>
+    <a href="#quem-somos"></a>
+    <h2 id="quem-somos">Quem Somos</h2>
+    <div class="espacamento"></div>
+    <div class="imagem-container3">
+        <img src="images/VHS.png" alt="Descrição da Imagem do Banner" width="1500" height="800">
+        <div class="texto-ao-lado">
+            <p class="paragrafo-cinemacabro">No Cinemacabro, somos obcecados por filmes de terror Found Footage. Desde os clássicos até os mais recentes, mergulhamos nas profundezas do medo para trazer o melhor do gênero para você.</p>
+        </div>
+    </div>
+    <h2 id="news">News</h2>
+    <div class="espacamento"></div>
+    <div class="imagem-container3">
+        <div class="texto-ao-lado">
+            <p class="paragrafo-cinemacabro">Aqui você encontra todas as notícias sobre filmes de terror!</p>
+            <a href="#news" class="botao2">Veja mais</a>
+        </div>
+        <img src="images/jornal.jpeg" alt="Descrição da Imagem do Banner" width="1500" height="800">
+    </div>
+    <div class="espacamento"></div>
+    <div class="mini-formulario">
+        <p class="paragrafo-cinemacabro">Faltou algum filme muito doido? Manda pra gente que adicionamos no nosso catálogo! </p>
+        <form action="contato.html" method="post" class="formulario-vertical">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="nome-do-filme">Nome do Filme:</label>
+            <input type="text" id="nome-do-filme" name="nome-do-filme" required>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="6" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        
+    </div>
+    <div class="espacamento"></div>
+    <footer>
+        <div class="logo"></div>
+        <img src="images/logo_negativo.png" alt="Descrição da Imagem do Banner" width="400" height="100">
+        <p>Copyright © 2024 Cinemacabro. Todos os direitos reservados.</p>
+    </footer>
+    
+</body>
+</html>

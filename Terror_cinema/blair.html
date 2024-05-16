@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinemacabro - Home</title>
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        footer {
+              background-color: #ffffff; 
+              color: rgb(0, 0, 0); 
+              text-align: center;
+              padding: 20px;
+              margin-top: auto;
+}
+
+        header {
+            background-color: #000000;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .imagem-grande {
+            text-align: center;
+            margin-top: 20px;
+            position: relative;
+        }
+
+        .imagem-grande img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .filme-titulo {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .informacoes {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            color: white;
+            text-align: left;
+        }
+
+        .informacoes p {
+            margin: 5px 0;
+        }
+
+        .botao-trailer {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            padding: 10px 20px;
+            background-color: #f44336;
+            color: white;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .sinopse {
+            position: absolute;
+            bottom: 10%;
+            left: 50%;
+            transform: translateX(-50%);
+            color: white;
+            max-width: 80%;
+            font-style: italic;
+        }
+
+        .imagem-destaque {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 350px; /* Ajuste a largura conforme necessário */
+            height: auto; /* Para manter a proporção da imagem */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/logo.png" alt="Descrição da Imagem do Banner" width="500" height="150">
+            </a>
+        </div>
+    </header>
+
+    <div class="imagem-grande">
+        <img src="images/blair_movie.jpg" alt="Nome do Filme">
+        <img class="imagem-destaque" src="images/Blair_Witch_logo.png" alt="Descrição da Imagem Destaque">
+        <div class="sinopse">Os 3 atores receberam aulas de como manusear uma câmera e então foram levados para ficar oito dias na floresta privados de sono e alimento com apenas uma bússola e sem saber mesmo onde estavam.
+        </div>
+        <div class="informacoes">
+            <p>Tempo: 91 minutos</p>
+            <p>Ano: 1999</p>
+            <p>Nota: n.a</p>
+        </div>
+        <a href="https://www.youtube.com/watch?v=MBZ-POVsrlI" class="botao-trailer">Veja o trailer</a>
+    </div>
+
+    <!-- Seu conteúdo aqui -->
+
+    <footer>
+      <div class="logo"></div>
+      <img src="images/logo_negativo.png" alt="Descrição da Imagem do Banner" width="400" height="100">
+      <p>Copyright © 2024 Cinemacabro. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
